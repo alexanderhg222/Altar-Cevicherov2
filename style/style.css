@@ -22,9 +22,9 @@ h2 {
 	color: #333;
 	text-transform: uppercase;
 	position: relative;
-	margin-top: 10px;
-	margin-bottom: 15px;
-	padding-bottom: 20px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	padding-bottom: 5px;
 }
 h2::after {
 	position: absolute;
@@ -96,7 +96,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	text-align: left;
 }
 #menu {
-	padding: 20px;
+	padding: 10px;
 	transition: all 0.8s;
 }
 #menu.navbar-default {
@@ -148,7 +148,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	background-color: #FFF;
 }
 .section-title {
-	margin-bottom: 40px;
+	margin-bottom: 20px;
 }
 .section-title .overlay {
 	padding: 60px 0;
@@ -159,7 +159,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 }
 .section-title hr {
 	margin: 0 auto;
-	margin-bottom: 40px;
+	margin-bottom: 20px;
 }
 .btn-custom {
 	text-transform: uppercase;
@@ -220,14 +220,12 @@ header .intro-text {
 }
 /* Features Section */
 #features {
-	padding: 120px 0;
+	padding: 50px 0;
 }
 #features .features-item {
 	margin: 0 20px;
 }
-#features img {
-	margin: 30px auto 20px;
-}
+
 #features h3 {
 	padding-bottom: 28px;
 }
