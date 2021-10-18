@@ -180,6 +180,7 @@
     </div>
   </div>
   <!-- Restaurant Menu Section -->
+  <section class="carta">
   <div id="restaurant-menu">
     <div class="container">
       <div class="section-title text-center">
@@ -366,7 +367,10 @@
       </div>
   
     </div>
+  
   </div>
+  </section>
+ <!-- CHEF -->
   <div id="team" style="background-color: #f6f6f6;">
     <div class="container-fluid">
       <div class="row">
@@ -396,6 +400,47 @@
     </div>
   </div>
   
+  <!--Museo de la pachamama-->
+  <div id="team2" style="padding-bottom: 80px;">
+    <div class="container-fluid">  
+      <div class="row">
+        <div class="col-xs-12 col-md-6">
+          <div class="w3-content w3-section" style="max-width:600px;padding-top: 0; margin-top: 0;">
+            <img class="mySlides2" src="img/Museo/Museo1.jpg" style="padding-left: 50px;width:100%;padding-top: 80px">
+            <img class="mySlides2" src="img/Museo/Museo2.jpg" style="padding-left: 50px;width:100%;padding-top: 80px">
+            <img class="mySlides2" src="img/Museo/Museo3.jpg" style="padding-left: 50px;width:100%;padding-top: 80px">
+          </div>        
+          <script>
+          var myIndex2 = 0;
+          carousel2();        
+          function carousel2() {
+            var i;
+            var x = document.getElementsByClassName("mySlides2");
+            for (i = 0; i < 3; i++) {
+              x[i].style.display = "none";
+            }
+            myIndex2++;
+            if (myIndex2 > 3) {myIndex2 = 1}    
+            x[myIndex2-1].style.display = "block";  
+            setTimeout(carousel2, 4000); // Change image every 4 seconds
+          }
+          </script> 
+        </div>
+       
+        <div class="col-xs-12 col-md-5 col-md-offset-1">
+          <div class="about-text" style="padding-top: 50px;">
+            <div class="section-title text-center m-titulo">
+              <h2>Museo  pachamama Perú</h2>
+            </div>
+            <div class="m-text">
+            <p style="padding-bottom: 0px;">El MUSEO PACHAMAMA PERÚ, cuenta con la exposición de más de 250 plantas medicinales, maestras y productos gastronómicos del Perú”. Es una empresa eco sostenible y amigable con el medio ambiente. Fue creada para desarrollar la actividad turística con una visión moderna y una política inclusiva, la misma que tiene como objetivo rescatar, conservar, revalorar y difundir los conocimientos y saberes ancestrales de la medicina natural y la espiritualidad, transmitidos a través de los años como parte de nuestra tradición, identidad y cultura viva del Perú.</p>
+            <p style="padding-bottom: 0px;">Proponiendo y desarrollando actividades estratégicas compatibles con la conservación y el desarrollo sostenible dentro de un marco formal, acorde con nuestra normativa y mejorando la calidad de vida de las Comunidades Andinas y Amazónicas, generando recursos para su propio desarrollo.</p>                
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
  
 </body>
 </html>
