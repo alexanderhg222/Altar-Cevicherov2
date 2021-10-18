@@ -357,7 +357,7 @@ header .intro-text {
 }
 /* Contact Section */
 #contact {
-	padding: 100px 0;
+	padding:  0;
 	background: #333;
 }
 #contact .contact-item p {
