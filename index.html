@@ -150,7 +150,8 @@
       </div>
     </div>
   </div>
-  <!-- About Section -->
+  <!-- Bienvenida -->
+  <section class="bienvenida">
   <div id="about"  >
     <div class="container-fluid">
       <div class="row">
@@ -179,6 +180,7 @@
       </div>
     </div>
   </div>
+  </section>
   <!-- Restaurant Menu Section -->
   <section class="carta">
   <div id="restaurant-menu">
@@ -371,6 +373,7 @@
   </div>
   </section>
  <!-- CHEF -->
+   <section class="Chef">
   <div id="team" style="background-color: #f6f6f6;">
     <div class="container-fluid">
       <div class="row">
@@ -399,8 +402,9 @@
       </div>
     </div>
   </div>
-  
+   </section>
   <!--Museo de la pachamama-->
+  <section class="museo">
   <div id="team2" style="padding-bottom: 80px;">
     <div class="container-fluid">  
       <div class="row">
@@ -441,6 +445,48 @@
       </div>
     </div>
   </div>
+ </section>
+ <!--Herbario-->
+ <section class="Herbario">
+    <div id="team" style="background-color: #f6f6f6;">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-xs-12 col-md-4 col-md-offset-1 mx-auto d-block">
+            <div class="about-text" style="padding-top: 5px;">
+              <div class="section-title bio">
+                <h2>Herbario Inti Hampi</h2>
+              </div>
+              <div class="bio-p">
+                <p>El Herbario Inti Hampi fue creado para conservar y coleccionar plantas medicinales, maestras, productos gastronómicos y semillas del Perú. Estas muestras se conservan durante 100 años aproximadamente y como material para estudios botánicos y para las futuras generaciones.</p>
+
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-12 col-md-6">
+              <div class="w3-content w3-section" style="max-width:600px;padding-top: 0; margin-top: 0;">
+            <img class="mySlides3" src="img/Herbario/Herbario1.JPG" style="width:100%">
+            <img class="mySlides3" src="img/Herbario/Herbario2.JPG" style="width:100%">
+            <img class="mySlides3" src="img/Herbario/Herbario3.JPG" style="width:100%"> </div>        
+          <script>
+          var myIndex2 = 0;
+          carousel2();        
+          function carousel2() {
+            var i;
+            var x = document.getElementsByClassName("mySlides3");
+            for (i = 0; i < 3; i++) {
+              x[i].style.display = "none";
+            }
+            myIndex2++;
+            if (myIndex2 > 3) {myIndex2 = 1}    
+            x[myIndex2-1].style.display = "block";  
+            setTimeout(carousel2, 4000); // Change image every 4 seconds
+          }
+          </script> 
+          </div>
+        </div>
+      </div>
+    </div>
+     </section>
  
 </body>
 </html>
