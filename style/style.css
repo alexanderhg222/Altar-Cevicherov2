@@ -278,7 +278,7 @@ header .intro-text {
 }
 #about p {
 	line-height: 24px;
-	margin: 15px 0 30px;
+	margin: 10px 0 0px;
 }
 #platos{
 	background: white
@@ -311,7 +311,7 @@ header .intro-text {
 	text-align: center;
 }
 #restaurant-menu .menu-item {
-	margin: 45px 0;
+	margin: 15px 0;
 	font-size: 18px;
 }
 #restaurant-menu .menu-item-name {
