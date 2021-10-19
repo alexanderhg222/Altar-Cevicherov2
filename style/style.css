@@ -505,3 +505,19 @@ color: #999;
 }
 .video-container iframe, .video-container object, .video-container embed 
 { position: absolute; top: 0; left: 10%; width: 80%; height: 80%; }
+#mo1{
+	height:150px;margin-top: -50px;
+}
+#mo2{
+	height:150px;margin-top: -50px;
+}
+@media screen and ( max-width:680px) {
+	#mo1{
+		height: 0px;
+	}
+	#mo2{
+		height: 0px;
+	}
+	
+	
+}
