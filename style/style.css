@@ -249,9 +249,7 @@ header .intro-text {
 	background: #f6f6f6;
 }
 #about h2::after {
-	bottom: 0;
-	margin-left: 0;
-	left: 0;
+	text-align: center;
 }
 #about .about-text {
 	padding: 0px 0;
@@ -342,9 +340,7 @@ header .intro-text {
 	padding: 50px 0;
 }
 #team h2::after {
-	bottom: 0;
-	margin-left: 0;
-	left: 0;
+text-align: center;
 }
 #team img {
 	max-width: 600px;
