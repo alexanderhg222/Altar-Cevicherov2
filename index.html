@@ -45,6 +45,16 @@
             <a class="navbar-brand ml-5" href=""> </a>
             <a class="navbar-brand px-4" href="#about">Bienvenida</a>
             <a class="navbar-brand px-4" href="#restaurant-menu">Menu</a>
+            <li  style="list-style: none;" class="nav-item dropdown">
+              <a class="navbar-brand dropdown-toggle" href="#restaurant-menu" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Menu
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                <li><a class="dropdown-item" href="#principal">Principal</a></li>
+                <li><a class="dropdown-item" href="#sushi">Sushi </a></li>
+                <li><a class="dropdown-item" href="#bar">Bar </a></li>
+              </ul>
+            </li>
             <a class="navbar-brand px-4 "href="#team">Chef</a>
             <a class="navbar-brand px-4" href="#team2">Atractivos</a>
             <a class="navbar-brand px-4" href="#contact">Delivery</a>
@@ -191,7 +201,7 @@
   </div>
 </section>
 <section class="youtube">
-  <div class="video-container" style="position: relative;padding-bottom: 40.25%; padding-top: 20px; height: 0; overflow: hidden;">
+  <div class="video-container" style="position: relative;padding-bottom: 56.25%; padding-top: 20px; height: 0; overflow: hidden;">
   <iframe  src="https://www.youtube.com/embed/uVXKf7lXwe4" title="YouTube video player" frameborder="0" allow="accelerometer; 
                                 autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                               </div>
@@ -206,7 +216,7 @@
           <h2>Menú</h2>
         </div>
         <div class="row">
-          <h2 class="menu-section-title">Principales</h2>       
+          <h2 id="principal" class="menu-section-title">Principales</h2>       
           <div class="col-xs-12 col-sm-6">
            <div class="menu-section">          
               <div class="menu-item">
@@ -486,7 +496,7 @@
           </div>
         </div>
         <div class="section-title text-center">
-          <h2>SUSHI</h2>
+          <h2 id="sushi">SUSHI</h2>
         </div>
         <div class="row">
           <div class="col-xs-12 col-sm-6">
@@ -592,8 +602,8 @@
             </div>
           </div>
         </div>
-        <div class="section-title text-center">
-          <h2>BAR</h2>
+        <div id="bar" class="section-title text-center">
+          <h2 >BAR</h2>
         </div>
         <div class="row">
           <div class="col-xs-12 col-sm-6">
