@@ -580,7 +580,12 @@ color: #999;
 	.carta #mo6{
 		height: 0px;
 	}
-	
+	#team #mo3{
+		height:0px;
+	}
+	#team #mo4{
+		height:0px;
+	}
 	
 }
 h1 { font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif; font-size: 24px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px; } 
