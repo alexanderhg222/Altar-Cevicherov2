@@ -519,7 +519,7 @@
             </div>
           </div>
         </div>
-        <div class="section-title text-center" id="sushi">
+        <div class="section-title text-center py-5" id="sushi">
          
           <h2>  <img id="mo5"src="img/Mochica-sin fondo/4.png" class=" float-start img-fluid "  alt="...">SUSHI  <img id="mo6"src="img/Mochica-sin fondo/4.png" class=" float-end img-fluid "  alt="..."></h2>
       
@@ -629,7 +629,7 @@
             </div>
           </div>
         </div>
-        <div id="bar" class="section-title text-center">
+        <div id="bar" class="section-title text-center py-5">
           <h2>  <img id="mo5"src="img/Mochica-sin fondo/2.png" class=" float-start img-fluid "  alt="...">BAR  <img id="mo6"src="img/Mochica-sin fondo/2.png" class=" float-end img-fluid "  alt="..."></h2>
       
          
@@ -946,7 +946,7 @@
   <div id="team" style="background-color: #f6f6f6;">
     <div class="container-fluid">
         <div class="section-title  text-center bio">
-          <h2>  <img id="mo3"src="img/Mochica-sin fondo/5.png" class=" float-start img-fluid "  alt="...">JOEL TELLO VILCHEZ - Master Chef Espiritual  <img id="mo4"src="img/Mochica-sin fondo/5.png" class=" float-end img-fluid "  alt="..."></h2>
+          <h2>  JOEL TELLO VILCHEZ - Master Chef Espiritual  </h2>
           </div>
       <div class="row justify-content-center">
         <div class="col-xs-12 col-md-4 col-md-offset-1 mx-auto d-block">
@@ -1026,7 +1026,7 @@
         </div>
        
         <div class="col-xs-12 col-md-4 col-md-offset-1">
-          <div class="about-text" style="padding-top: 80px;">
+          <div class="about-text" style="padding-top: 50px;">
             <div class="m-text">
             <p style="padding-bottom: 0px; text-align: justify">El MUSEO PACHAMAMA PERÚ, cuenta con la exposición de más de 250 plantas medicinales, maestras y productos gastronómicos del Perú”. Es una empresa eco sostenible y amigable con el medio ambiente. Fue creada para desarrollar la actividad turística con una visión moderna y una política inclusiva, la misma que tiene como objetivo rescatar, conservar, revalorar y difundir los conocimientos y saberes ancestrales de la medicina natural y la espiritualidad, transmitidos a través de los años como parte de nuestra tradición, identidad y cultura viva del Perú.</p>
             <p style="padding-bottom: 0px; text-align: justify">Proponiendo y desarrollando actividades estratégicas compatibles con la conservación y el desarrollo sostenible dentro de un marco formal, acorde con nuestra normativa y mejorando la calidad de vida de las Comunidades Andinas y Amazónicas, generando recursos para su propio desarrollo.</p>                
@@ -1124,7 +1124,7 @@
   <!-- Contact Section -->
   <section class="contactos">
   <div id="contact" class="text-center">
-    <div class="container row text-center " style="display: flex;align-content: flex-start;justify-content: space-between;padding-left: 10%;">
+    <div class="container row text-center mx-auto" >
         <div class="col-md-4">
             <h3>Reservaciones</h3>
             <div class="contact-item">
@@ -1146,6 +1146,56 @@
               <p>Martes, Miércoles, Viernes, Sábado y Domingo: 11:00 - 22:00</p>
             </div>
           </div>
+          <div class="w3-container" id="menu">
+            <div class="w3-content" style="max-width:700px">
+
+            
+              <div class="w3-row w3-center w3-card w3-padding ">
+                <a style="color: white;" href="javascript:void(0)" onclick="openMenu(event, 'Eat');" id="myLink">
+                  <div class="w3-col s4 tablink">Yape</div>
+                </a>
+                <a  style="color: white;" href="javascript:void(0)" onclick="openMenu(event, 'Drinks');">
+                  <div class="w3-col s4 tablink">Paypal</div>
+                </a>
+                <a  style="color: white;" href="javascript:void(0)" onclick="openMenu(event, 'Yape');">
+                  <div class="w3-col s4 tablink">Visa</div>
+                </a>
+              </div>
+          
+              <div id="Eat" class="w3-container menu w3-padding-48 w3-card">
+                <h5>Bread Basket</h5>
+                <p class="w3-text-grey">Assortment of fresh baked fruit breads and muffins 5.50</p><br>
+              
+                
+              </div>
+          
+              <div id="Drinks" class="w3-container menu w3-padding-48 w3-card">
+                <h5>Coffee</h5>
+                <p class="w3-text-grey">Regular coffee 2.50</p><br>
+                <script>
+                  // Tabbed Menu
+                  function openMenu(evt, menuName) {
+                    var i, x, tablinks;
+                    x = document.getElementsByClassName("menu");
+                    for (i = 0; i < x.length; i++) {
+                      x[i].style.display = "none";
+                    }
+                    tablinks = document.getElementsByClassName("tablink");
+                    for (i = 0; i < x.length; i++) {
+                      tablinks[i].className = tablinks[i].className.replace(" w3-dark-grey", "");
+                    }
+                    document.getElementById(menuName).style.display = "block";
+                    evt.currentTarget.firstElementChild.className += " w3-dark-grey";
+                  }
+                  document.getElementById("myLink").click();
+                  </script>
+               
+              </div>  
+            </div>
+          </div>
+          </div>
+         
+          
         </div>
         <div class="container">
           <iframe src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d3879.341118669311!2d-71.9791070857525!3d-13.514645424615164!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e2!4m5!1s0x916dd6739cd7f175%3A0x27c9a9082fc6343!2sPlaza%20de%20armas%20de%20Cuzco%2C%20Del%20Medio%2C%20Cusco!3m2!1d-13.516772!2d-71.9787231!4m5!1s0x916dd673bc4dd783%3A0x8ab606d6259b3413!2sMuseo%20Pachamama%20Peru%2C%20de%20San%20Marcos%2C%20Cancha%20de%20Futbol%2C%20Calle%20Atoqsaycuchi%20790%20San%20Blas%2C%20frente%20a%20la%2C%20Cusco%2008000!3m2!1d-13.5122102!2d-71.9751137!5e0!3m2!1ses!2spe!4v1634331288845!5m2!1ses!2spe" width="100%" height="550" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
