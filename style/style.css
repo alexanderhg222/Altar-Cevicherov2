@@ -508,23 +508,38 @@ color: #999;
 #mo1{
 	height:250px;margin-top: -100px;
 	left: 0;
-	position: fixed;
+	position: absolute;
 }
 #mo2{
 	height:250px;margin-top: -100px;
-	position: fixed;
+	position: absolute;
 	right: 0;
 }
-#mo3{
-
-	
-	
+.carta #mo3{
+	height:250px;
+	margin-top: -100px;
+	position: absolute;
+	left: 0;
 }
+.carta #mo4{
+	height:250px;
+	margin-top: -100px;
+	position: absolute;
+	right: 0;
+}
+
+
 @media screen and ( max-width:990px) {
 	#mo1{
 		height: 0px;
 	}
 	#mo2{
+		height: 0px;
+	}
+	.carta #mo3{
+		height: 0px;
+	}
+	.carta #mo4{
 		height: 0px;
 	}
 	
