@@ -951,7 +951,6 @@
       <div class="row justify-content-center">
         <div class="col-xs-12 col-md-4 col-md-offset-1 mx-auto d-block">
           <div class="about-text" style="padding-top: 90px;">
-           
             <div class="bio-p">
               <p style="text-align: justify">Nació en Trujillo, el 18 de junio de 1980, creció en el seno de una familia del campo.
                 Desde muy joven sintió su vocación por el arte de la cocina, estudio Restaurante y Bar
@@ -969,6 +968,27 @@
               <img  src="img/ChefJoel.jpg" style="width:100%;padding-top: 30px;">
               </div> 
         </div>
+      </div>
+      <div class="col-xs-12 col-md-10 col-md-offset-1 mx-auto d-block">        
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas vitae scel<span id="dots">...</span><span id="more">erisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh tempor porta.</span></p>
+        <button onclick="myFunction()" id="myBtn">Read more</button>
+        <script>
+        function myFunction() {
+          var dots = document.getElementById("dots");
+          var moreText = document.getElementById("more");
+          var btnText = document.getElementById("myBtn");
+        
+          if (dots.style.display === "none") {
+            dots.style.display = "inline";
+            btnText.innerHTML = "Read more"; 
+            moreText.style.display = "none";
+          } else {
+            dots.style.display = "none";
+            btnText.innerHTML = "Read less"; 
+            moreText.style.display = "inline";
+          }
+        }
+        </script>
       </div>
     </div>
   </div>
