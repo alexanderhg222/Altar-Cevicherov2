@@ -506,12 +506,12 @@ color: #999;
 .video-container iframe, .video-container object, .video-container embed 
 { position: absolute; top: 0; left: 10%; width: 80%; height: 80%; }
 #mo1{
-	height:250px;margin-top: -100px;
+	height:250px;margin-top: -90px;
 	left: 0;
 	position: absolute;
 }
 #mo2{
-	height:250px;margin-top: -100px;
+	height:250px;margin-top: -90px;
 	position: absolute;
 	right: 0;
 }
@@ -606,7 +606,7 @@ color: #999;
 		padding-top: .3125rem;
 		padding-bottom: .3125rem;
 		margin-right: 1rem;
-		font-size: 0.5rem;
+		font-size: 0.8rem;
 		text-decoration: none;
 		
 	}
