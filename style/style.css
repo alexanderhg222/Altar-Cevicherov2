@@ -563,11 +563,11 @@ color: #999;
 #more {display: none;}
 
 .slider #sli{
-	width: 100%;height: 530px;
+	width: 100%;height: 580px;
 }
 .slider #logo{
 	position: absolute;
-	padding-top: 80px;
+	padding-top: 55px;
 	width: 28%;
 	left: 0;
 	right: 0;
