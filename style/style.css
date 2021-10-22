@@ -19,7 +19,7 @@ body, html {
 h2 {
 	font-weight: 400;
 	font-size: 38px;
-	color: #333;
+	color: #24aee8;
 	text-transform: uppercase;
 	position: relative;
 	margin-top: 5px;
@@ -29,7 +29,7 @@ h2 {
 h2::after {
 	position: absolute;
 	content: "";
-	background: #d43031;
+	/*background: #24aee8;*/
 	height: 2px;
 	width: 70px;
 	bottom: 0;
