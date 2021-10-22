@@ -543,7 +543,7 @@ color: #999;
     padding-top: .3125rem;
     padding-bottom: .3125rem;
     margin-right: 2rem;
-    font-size: 1.25rem;
+    font-size: 1.15rem;
     text-decoration: none;
     white-space: nowrap;
 	justify-content: center;
@@ -603,7 +603,7 @@ color: #999;
 		height: 100%;
 	}
     .navbar-brand2 {
-		padding-top: .3125rem;
+		padding-top: .5125rem;
 		padding-bottom: .3125rem;
 		margin-right: 1rem;
 		font-size: 0.7rem;
