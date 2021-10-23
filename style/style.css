@@ -566,6 +566,9 @@ color: #999;
 	position: absolute;
 	left: 100px;
 }
+#about #mo3{
+	padding-bottom: 50px;color: #24aee8;
+}
 #team #mo4{
 	height:250px;
 	margin-top: -110px;
@@ -607,6 +610,18 @@ color: #999;
 }
 .ga-text{
 	padding-top: 150px;
+}
+.bi-text{
+	padding-top: 70px;
+}
+.bi-img{
+	padding-top: 30px;
+}
+.exp-img{
+	height: 250px;
+}
+.m-titulo{
+	padding-top: 50px;
 }
 @media screen and ( max-width:1000px) {
 	#mo1{
@@ -676,10 +691,36 @@ color: #999;
 	padding-top: 150px;
 	width: 40%;
 	left: 0;
-	right: 0;
+	right: 0;}
+	#about #mo3{
+		padding-bottom: 0;color: #24aee8;
+	}
+	.bi-text{
+		padding-top: 20px;
+	}
+	.bi-img{
+		margin-top: -30px;
+	}
+	.exp-img{
+		height: 220px;
+	}
+	.img-bi{
+		margin-top: -50px;
+	}
+	.m-titulo{
+		padding-top: 20px;
+	}
+	.p-mu{
+		margin-right: auto;
+		margin-left: auto;
+		padding-top: 0px;
+	}
+	.her-text{
+		padding-top: 0px;
+	}
 }
 	
-}
+
 @media screen and (max-width:380px) {
 	.navbar-brand2 {
 		padding-top: .5125rem;
@@ -694,7 +735,19 @@ color: #999;
 		padding-top: 100px;
 		width: 40%;
 		left: 0;
-		right: 0;}
+		right: 0;
+	}
+	#about {
+		padding: 20px 0;
+		background: #f6f6f6;
+	}
+	.mu-img{
+		margin-top: -40px;
+	}
+	.museo .w3-section{
+		margin-top: 0px !important;
+		margin-bottom: 0px !important;
+	}
 }
 .dropdown-item{
 	font-family: "Century Gothic"
