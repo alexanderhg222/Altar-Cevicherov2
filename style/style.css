@@ -546,7 +546,8 @@ color: #999;
     text-decoration: none;
     white-space: nowrap;
 	justify-content: center;
-	font-family: "Century Gothic"
+	font-family: "Century Gothic";
+	color: #085aad;
 }
 #team #mo3{
 	height:250px;
