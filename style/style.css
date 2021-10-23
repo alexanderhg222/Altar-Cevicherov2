@@ -475,9 +475,9 @@ color: #999;
 /*--------WPP------*/
 .float{
 	position:fixed;
-	width:60px;
-	height:60px;
-	bottom:3px;
+	width:57px;
+	height:57px;
+	bottom:20px;
 	left:10px;
 	background-color:#25d366;
 	color:#FFF;
