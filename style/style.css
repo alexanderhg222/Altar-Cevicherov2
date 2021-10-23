@@ -617,6 +617,9 @@ color: #999;
 .bi-img{
 	padding-top: 30px;
 }
+.exp-img{
+	height: 250px;
+}
 @media screen and ( max-width:1000px) {
 	#mo1{
 		height: 0px;
@@ -694,6 +697,9 @@ color: #999;
 	}
 	.bi-img{
 		margin-top: -30px;
+	}
+	.exp-img{
+		height: 220px;
 	}
 }
 	
