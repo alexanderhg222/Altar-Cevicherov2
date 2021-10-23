@@ -228,6 +228,7 @@ header .intro-text {
 
 #features h3 {
 	padding-bottom: 28px;
+	color: #24aee8;
 }
 #features .about-img:before {
 	display: block;
@@ -298,7 +299,7 @@ header .intro-text {
 	margin: 0 auto;
 }
 #restaurant-menu .menu-section {
-	margin: 0 20px 80px;
+	margin: 0 20px 40px;
 }
 #restaurant-menu .menu-section-title {
 	font-size: 32px;
@@ -337,10 +338,11 @@ header .intro-text {
 }
 /* Team Section */
 #team {
-	padding: 50px 0;
+	padding: 20px 0;
 }
-#team h2::after {
+#team h2 {
 text-align: center;
+color: #24aee8;
 }
 #team img {
 	max-width: 600px;
@@ -506,12 +508,12 @@ color: #999;
 .video-container iframe, .video-container object, .video-container embed 
 { position: absolute; top: 0; left: 10%; width: 80%; height: 80%; }
 #mo1{
-	height:250px;margin-top: -90px;
+	height:250px;margin-top: -65px;
 	left: 0;
 	position: absolute;
 }
 #mo2{
-	height:250px;margin-top: -90px;
+	height:250px;margin-top: -65px;
 	position: absolute;
 	right: 0;
 }
@@ -529,13 +531,13 @@ color: #999;
 }
 .carta #mo5{
 	height:150px;
-	margin-top: -80px;
+	margin-top: -15px;
 	position: absolute;
 	left: 0;
 }
 .carta #mo6{
 	height:150px;
-	margin-top: -80px;
+	margin-top: -15px;
 	position: absolute;
 	right: 0;
 }
@@ -572,7 +574,31 @@ color: #999;
 	left: 0;
 	right: 0;
 }
-
+.p-chef{
+	margin-right: 0;
+	margin-left: auto;
+	padding-top: 80px;
+}
+.p-mu{
+	margin-right: 57px;
+	margin-left: auto;
+	padding-top: 50px;
+}
+.mu-img{
+	padding-left: 50px;
+}
+.her-img{
+	padding-right: 50px;
+}
+.her-text{
+	padding-top: 150px;
+}
+.ga-img{
+	padding-left: 50px;
+}
+.ga-text{
+	padding-top: 150px;
+}
 @media screen and ( max-width:1000px) {
 	#mo1{
 		height: 0px;
@@ -610,6 +636,31 @@ color: #999;
 		text-decoration: none;
 		font-family: "Century Gothic"
 		
+	}
+	.p-chef{
+		margin-right: auto;
+		margin-left: auto;
+		padding-top: 30px;
+	}
+	.p-mu{
+		margin-right: auto;
+		margin-left: auto;
+		padding-top: 50px;
+	}
+	.mu-img{
+		padding-left: 0px;
+	}
+	.herb-img{
+		padding-right: 0px;
+	}
+	.her-text{
+		padding-top: 50px;
+	}
+	.ga-img{
+		padding-left: 0px;
+	}
+	.ga-text{
+		padding-top: 50px;
 	}
 	
 }
