@@ -566,6 +566,9 @@ color: #999;
 	position: absolute;
 	left: 100px;
 }
+#about #mo3{
+	padding-bottom: 50px;color: #24aee8;
+}
 #team #mo4{
 	height:250px;
 	margin-top: -110px;
@@ -607,6 +610,9 @@ color: #999;
 }
 .ga-text{
 	padding-top: 150px;
+}
+.bi-text{
+	padding-top: 30px;
 }
 @media screen and ( max-width:1000px) {
 	#mo1{
@@ -676,10 +682,13 @@ color: #999;
 	padding-top: 150px;
 	width: 40%;
 	left: 0;
-	right: 0;
+	right: 0;}
+	#about #mo3{
+		padding-bottom: 0;color: #24aee8;
+	}
 }
 	
-}
+
 @media screen and (max-width:380px) {
 	.navbar-brand2 {
 		padding-top: .5125rem;
