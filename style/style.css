@@ -569,8 +569,8 @@ color: #999;
 }
 .slider #logo{
 	position: absolute;
-	padding-top: 15px;
-	width: 28%;
+	padding-top: 300px;
+	width: 40%;
 	left: 0;
 	right: 0;
 }
@@ -650,7 +650,7 @@ color: #999;
 	.mu-img{
 		padding-left: 0px;
 	}
-	.herb-img{
+	.her-img{
 		padding-right: 0px;
 	}
 	.her-text{
@@ -662,6 +662,13 @@ color: #999;
 	.ga-text{
 		padding-top: 50px;
 	}
+	.slider #logo{
+	position: absolute;
+	padding-top: 150px;
+	width: 40%;
+	left: 0;
+	right: 0;
+}
 	
 }
 @media screen and (max-width:380px) {
@@ -673,6 +680,12 @@ color: #999;
 		text-decoration: none;
 		
 	}
+	.slider #logo{
+		position: absolute;
+		padding-top: 100px;
+		width: 40%;
+		left: 0;
+		right: 0;}
 }
 .dropdown-item{
 	font-family: "Century Gothic"
