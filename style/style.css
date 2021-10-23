@@ -551,6 +551,15 @@ color: #999;
 	font-family: "Century Gothic";
 	color: #085aad;
 }
+.navbar-brand3 {
+   
+    font-size: 1rem;
+    text-decoration: none;
+    white-space: nowrap;
+	justify-content: center;
+	font-family: "Century Gothic";
+	color: #085aad;
+}
 #team #mo3{
 	height:250px;
 	margin-top: -110px;
@@ -675,7 +684,7 @@ color: #999;
 	.navbar-brand2 {
 		padding-top: .5125rem;
 		padding-bottom: .3125rem;
-		margin-right: 1rem;
+		margin-right: 0.5rem;
 		font-size: 0.6rem;
 		text-decoration: none;
 		
