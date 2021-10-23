@@ -620,6 +620,9 @@ color: #999;
 .exp-img{
 	height: 250px;
 }
+.m-titulo{
+	padding-top: 50px;
+}
 @media screen and ( max-width:1000px) {
 	#mo1{
 		height: 0px;
@@ -704,7 +707,17 @@ color: #999;
 	.img-bi{
 		margin-top: -50px;
 	}
-	
+	.m-titulo{
+		padding-top: 20px;
+	}
+	.p-mu{
+		margin-right: auto;
+		margin-left: auto;
+		padding-top: 0px;
+	}
+	.her-text{
+		padding-top: 0px;
+	}
 }
 	
 
@@ -727,6 +740,13 @@ color: #999;
 	#about {
 		padding: 20px 0;
 		background: #f6f6f6;
+	}
+	.mu-img{
+		margin-top: -40px;
+	}
+	.museo .w3-section{
+		margin-top: 0px !important;
+		margin-bottom: 0px !important;
 	}
 }
 .dropdown-item{
