@@ -701,6 +701,10 @@ color: #999;
 	.exp-img{
 		height: 220px;
 	}
+	.img-bi{
+		margin-top: -50px;
+	}
+	
 }
 	
 
@@ -718,7 +722,12 @@ color: #999;
 		padding-top: 100px;
 		width: 40%;
 		left: 0;
-		right: 0;}
+		right: 0;
+	}
+	#about {
+		padding: 20px 0;
+		background: #f6f6f6;
+	}
 }
 .dropdown-item{
 	font-family: "Century Gothic"
