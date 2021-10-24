@@ -603,7 +603,7 @@ color: #999;
 	padding-right: 50px;
 }
 .her-text{
-	padding-top: 150px;
+	padding-top: 130px;
 }
 .ga-img{
 	padding-left: 50px;
@@ -639,9 +639,9 @@ color: #999;
 .jltp{
 	padding-top: 30px;
 }
-#sli{
+#sli1{
 	width: 100%;
-	height: 85vh;
+	height: 90vh;
 }
 @media screen and ( max-width:1000px) {
 	#mo1{
