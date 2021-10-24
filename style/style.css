@@ -807,6 +807,11 @@ color: #999;
 		font-size: 17px;
 	}
 }
+ @media screen and (max-width:368px) {
+	#lema{
+		font-size: 14px;
+	}
+ }
 .dropdown-item{
 	font-family: "Century Gothic"
 }
