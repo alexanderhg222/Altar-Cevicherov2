@@ -639,6 +639,10 @@ color: #999;
 .jltp{
 	padding-top: 30px;
 }
+#sli{
+	width: 100%;
+	height: 85vh;
+}
 @media screen and ( max-width:1000px) {
 	#mo1{
 		height: 0px;
@@ -667,6 +671,11 @@ color: #999;
 	.slider #sli{
 		width: 100%;
 		height: 100%;
+	}
+	#sli1{
+		
+		width: 100%;
+		height: 35vh;
 	}
     .navbar-brand2 {
 		padding-top: .5125rem;
