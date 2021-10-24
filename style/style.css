@@ -299,7 +299,7 @@ header .intro-text {
 	margin: 0 auto;
 }
 #restaurant-menu .menu-section {
-	margin: 0 20px 40px;
+	margin: 0 20px 0px;
 }
 #restaurant-menu .menu-section-title {
 	font-size: 32px;
@@ -443,7 +443,7 @@ color: #999;
 /* Footer Section*/
 #footer {
 	background: #262626;
-	padding: 40px 0 20px 0;
+	padding: 10px 0 0px 0;
 }
 #footer .social {
 	margin-top: -5px;
@@ -508,12 +508,12 @@ color: #999;
 .video-container iframe, .video-container object, .video-container embed 
 { position: absolute; top: 0; left: 10%; width: 80%; height: 80%; }
 #mo1{
-	height:250px;margin-top: -65px;
+	height:200px;margin-top: -60px;
 	left: 0;
 	position: absolute;
 }
 #mo2{
-	height:250px;margin-top: -65px;
+	height:200px;margin-top: -60px;
 	position: absolute;
 	right: 0;
 }
@@ -567,7 +567,7 @@ color: #999;
 	left: 100px;
 }
 #about #mo3{
-	padding-bottom: 50px;color: #24aee8;
+	color: #24aee8;
 }
 #team #mo4{
 	height:250px;
@@ -635,6 +635,9 @@ color: #999;
 .español{
 	margin-top: -5px;
 	width: 22px;height: 20px;
+}
+.jltp{
+	padding-top: 30px;
 }
 @media screen and ( max-width:1000px) {
 	#mo1{
@@ -764,12 +767,12 @@ color: #999;
 	.español{
 		width: 15px;
 		height: 15px;
-		margin-top: -5px;
+		margin-top: -8px;
 	}
 	.ingles{
 		width: 30px;
     height: 15px;
-	margin-top: -5px;
+	margin-top: -8px;
 	}
 	#footer {
 		background: #262626;
@@ -784,6 +787,12 @@ color: #999;
 	}
 	#jt{
 		font-size: 30px;
+	}
+	#ga-ti{
+		font-size: 30px;
+	}
+	.jltp{
+		padding-top: 0px;
 	}
 }
 .dropdown-item{
