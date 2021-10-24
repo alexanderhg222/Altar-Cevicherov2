@@ -757,7 +757,7 @@ color: #999;
 	}
 	.slider #logo{
 		position: absolute;
-		padding-top: 100px;
+		padding-top: 120px;
 		width: 40%;
 		left: 0;
 		right: 0;
@@ -802,6 +802,9 @@ color: #999;
 	}
 	.jltp{
 		padding-top: 0px;
+	}
+	#lema{
+		font-size: 17px;
 	}
 }
 .dropdown-item{
