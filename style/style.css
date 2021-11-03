@@ -13,7 +13,7 @@ body, html {
   .menu {
     display: none;
   }
-  h1, h2, h3, h4 {
+  h2, h2, h3, h4 {
 	font-family: 'Raleway', sans-serif;
 }
 h2 {
@@ -195,7 +195,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 .intro .overlay {
 	background: rgba(153, 118, 118, 0.6);
 }
-.intro h1 {
+.intro h2 {
 	font-family: 'Rochester', cursive;
 	color: rgb(104, 218, 233);
 	font-size: 10em;
@@ -640,7 +640,7 @@ color: #999;
 	padding-top: 30px;
 }
 #sli1{
-	width: 100%;
+	width: 80%;
 	height: 90vh;
 }
 @media screen and ( max-width:1000px) {
@@ -815,7 +815,7 @@ color: #999;
 .dropdown-item{
 	font-family: "Century Gothic"
 }
-h1 { font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif; font-size: 24px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px; } 
+h2 { font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif; font-size: 24px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px; } 
 h3 { font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif; font-size: 20px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 15.4px; }
  p { font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif; font-size: 18px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px; } 
  blockquote { font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif; font-size: 21px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 30px; } 
