@@ -17,7 +17,7 @@ body, html {
 	font-family: 'Inconsolata', sans-serif;
 }
 h2 {
-	font-weight: 400;
+	
 	font-size: 38px;
 	color: #24aee8;
 	text-transform: uppercase;
@@ -40,13 +40,14 @@ h2::after {
 
 h3 {
 	font-size: 24px;
-	font-weight: 400;
+	
 	color: #333;
 }
 h4 {
 	font-size: 24px;
 	text-transform: uppercase;
-	font-weight: 400;
+	
+	
 	color: #333;
 }
 h5 {
@@ -55,12 +56,12 @@ h5 {
 	line-height: 20px;
 }
 p {
-	font-family: 'Inconsolata', sans-serif;
+	
 	font-size: 15px;
 }
 p.intro {
 	margin: 12px 0 0;
-	line-height: 24px;
+	
 }
 a {
 	color: #8eb640;
@@ -205,12 +206,12 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 }
 .intro span {
 	color: #a7c44c;
-	font-weight: 600;
+
 }
 .intro p {
 	color: #fff;
 	font-size: 24px;
-	font-weight: 400;
+	
 	margin-top: 150px;
 }
 header .intro-text {
