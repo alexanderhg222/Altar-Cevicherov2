@@ -796,10 +796,14 @@ color: #999;
 	.her-text{
 		padding-top: 0px;
 	}
+	#features .container-fluid .section-title{
+		margin-right: 50px;
+         margin-left: 80px;
+	}
 }
 	
 
-@media screen and (max-width:380px) {
+@media screen and (max-width:398px) {
 	.navbar-brand2 {
 		padding-top: .5125rem;
 		padding-bottom: .3125rem;
@@ -859,11 +863,17 @@ color: #999;
 	#lema{
 		font-size: 17px;
 	}
+	#features .container-fluid .section-title{
+		margin-right: 0px;
+         margin-left: 0px;
+	}
+
 }
  @media screen and (max-width:368px) {
 	#lema{
 		font-size: 14px;
 	}
+
  }
 .dropdown-item{
 	font-family: 'Poppins', sans-serif;
