@@ -803,7 +803,7 @@ color: #999;
 }
 	
 
-@media screen and (max-width:380px) {
+@media screen and (max-width:398px) {
 	.navbar-brand2 {
 		padding-top: .5125rem;
 		padding-bottom: .3125rem;
