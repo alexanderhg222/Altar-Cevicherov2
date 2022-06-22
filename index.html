@@ -258,28 +258,718 @@
 </section>
 <!-- PRUEBA DE LA CARTA -->
 <div class="w3-container">
-  <h2>Active Tabs</h2>
-  <p>To highlight the current tab/page the user is on, add a color class, and use JavaScript to update the active link.</p>
-
-  <div class="w3-bar w3-black">
-    <button class="w3-bar-item w3-button tablink w3-red" onclick="openCity(event,'London')">London</button>
-    <button class="w3-bar-item w3-button tablink" onclick="openCity(event,'Paris')">Paris</button>
-    <button class="w3-bar-item w3-button tablink" onclick="openCity(event,'Tokyo')">Tokyo</button>
+  <div class="section-title text-center">
+    <h2 style="font-size: 280%;color: #24aee8">  <b style="font-size: 65px;">MENÚ</b></h2>
+  </div>
+  <div class="w3-bar" style="color: #24aee8">
+    <button class="w3-bar-item w3-button tablink w3-blue" onclick="openCity(event,'London')">Pescados y Mariscos</button>
+    <button class="w3-bar-item w3-button tablink" onclick="openCity(event,'Paris')">Sushi</button>
+    <button class="w3-bar-item w3-button tablink" onclick="openCity(event,'Tokyo')">Bar</button>
   </div>
   
   <div id="London" class="w3-container w3-border city">
-    <h2>London</h2>
-    <p>London is the capital city of England.</p>
+    <div class="container">
+    <h2  class="menu-section-title" style="color: #24aee8;font-size: 250%;text-align: center"><b>PESCADOS Y MARISCOS</b></h2>
+    <div class="row">
+      <div class="col-xs-1 col-sm-6">
+       <div class="menu-section">
+          <div class="menu-item">
+            <div class="menu-item-name" style="font-size: 80%; color: #24aee8"><b>CEBICHE DE PULPO</b></div>
+            <div class="menu-item-price" style="font-size: 100%"> S/30 </div>
+            <div class="menu-item-description">Láminas de pulpo marinadas en zumo de limón, ají limo, rocoto, culantro, acompañado de cebolla roja, camote caramelizado, yuca, choclo, lechuga, cancha, chifle de plátano + Chicharrón de pota + Chilcano</div>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-name"style="font-size: 80%; color: #24aee8"><b>MIXTO CON MARISCOS</b></div>
+            <div class="menu-item-price" style="font-size: 100%">S/30</div>
+            <div class="menu-item-description">Trozos frescos de perico, trucha o corvina, langostino, pulpo, calamar y pota marinados en zumo de limón, ají limo, rocoto, salsa de ají amarillo, ají ahumado picante, salsa coral especial de langostinos, acompañado de cebolla roja, camote caramelizado, yuca, choclo, lechuga, cancha, chifle de plátano, yuyo frito + Chicharrón de pota + Chilcano</div>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-name" style="font-size: 80%; color: #24aee8"><b>ALTAR CEBICHERO CON LLULLUCHA</b></div>
+            <div class="menu-item-price" style="font-size: 100%">S/30</div>
+            <div class="menu-item-description">Trozos frescos de perico, trucha o corvina, langostino, pulpo, calamar, pota y llullucha marinados en zumo de limón, ají limó, rocoto, ají amarillo, ají ahumado picante, salsa coral especial de langostinos, acompañado de cebolla roja, camote caramelizado, yuca, choclo, lechuga, cancha, chifle de plátano, yuyo frito + Chicharrón de pota + Chilcano</div>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-name" style="font-size: 80%; color: #24aee8"><b>CAUSA ACEBICHADA</b></div>
+            <div class="menu-item-price" style="font-size: 100%">S/30</div>
+            <div class="menu-item-description">Papa amarilla. salsa de ají amarillo, zumo de limón, rellena con langostino y palta, acompañado de cebiche clásico, chifle de plátano, yuyo frito + Chicharrón de pota + Chilcano</div>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-name" style="font-size: 80%; color: #24aee8"><b>CHICHARRÓN DE POTA</b></div>
+            <div class="menu-item-price" style="font-size: 100%">S/20</div>
+            <div class="menu-item-description">Tiras de pota crocantes, acompañadas de yuca frita, salsa criolla, salsa tártara, ají ahumando picante, mostaza y kétchup</div>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-name" style="font-size: 80%; color: #24aee8"><b>CHICHARRÓN DE PESCADO</b></div>
+            <div class="menu-item-price" style="font-size: 100%">S/30</div>
+            <div class="menu-item-description">Tiras de pescado perico, trucha o corvina crocantes, acompañado de yuca frita, salsa criolla, salsa tártara, ají ahumado picante, mostaza y kétchup</div>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-name" style="font-size: 80%; color: #24aee8"><b>ARROZ CON MARISCOS</b></div>
+            <div class="menu-item-price" style="font-size: 100%">S/25</div>
+            <div class="menu-item-description">Langostino, pulpo, calamar, pota, cerveza, vino blanco seco, salsa coral especial de langostino, queso andino, pimiento ahumado, zanahoria, arvejas verdes, arroz, acompañado de salsa criolla</div>
+          </div>            
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-6">
+        <div class="menu-section">          
+          <div class="menu-item">
+            <div class="menu-item-name" style="font-size: 80%; color: #24aee8"><b>ARROZ CHAUFA CON MARISCOS</b></div>
+            <div class="menu-item-price" style="font-size: 100%">S/25</div>
+            <div class="menu-item-description">Langostino, pulpo, calamar, pota, vino blanco seco, salsa coral especial de langostino, pimiento ahumado, tortilla de huevo, cebolla china, arroz, salsa de soja, salsa de ostión, canela chica, aceite de ajonjolí, acompañado de salsa criolla</div>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-name" style="font-size: 80%; color: #24aee8"><b>JALEA MIXTA CON MARISCOS</b></div>
+            <div class="menu-item-price" style="font-size: 100%">S/27</div>
+            <div class="menu-item-description">Tiras de pescado perico, trucha o corvina, langostino, pulpo, calamar y pota, acompañado de yuca frita, salsa criolla, salsa tártara, ají ahumado, mostaza, kétchup</div>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-name" style="font-size: 80%; color: #24aee8"><b>FETUCCINI CON FRUTOS DE MAR</b></div>
+            <div class="menu-item-price" style="font-size: 100%">S/25</div>
+            <div class="menu-item-description">Fetuccini, langostino pulpo, calamar, pota, vino blanco seco, salsa coral especial de langostinos, queso andino, pimiento, choclo, cebolla ahumada</div>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-name" style="font-size: 80%; color: #24aee8"><b>PULPO PARRILLERO</b></div>
+            <div class="menu-item-price" style="font-size: 100%">S/30</div>
+            <div class="menu-item-description">Tiras de pulpo a la parrilla bañado con una salsa de la casa, acompañado con puré de camote y ensalada primavera con tomates Cherry y palta</div>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-name" style="font-size: 80%; color: #24aee8"><b>PULPO AL OLIVO</b></div>
+            <div class="menu-item-price" style="font-size: 100%">S/25</div>
+            <div class="menu-item-description">Lamidas de pulpo bañado con salsa de olivo, acompañado con palta y choclo</div>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-name" style="font-size: 80%; color: #24aee8"><b>PESCADO A LA PLANCHA</b></div>
+            <div class="menu-item-price" style="font-size: 100%">S/25</div>
+            <div class="menu-item-description">Filete fresco de perico, trucha o corvina sazonado con zumo de limón, kion, ajo, salsa coral especial de langostino, acompañado de brócoli, champiñones, tomate, zanahoria y cebolla salteados con aceite de oliva</div>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-name" style="font-size: 80%; color: #24aee8"><b>PESCADO FRITO</b></div>
+            <div class="menu-item-price" style="font-size: 100%">S/25</div>
+            <div class="menu-item-description">Trucha salmonada, corvina o chita fresca acompañado con yuca frita, arroz y salsa criolla</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div>
+     
+    </div>
+    <div class="row">
+      <div class="col-xs-12 col-sm-6">
+        <div class="menu-section">
+          <h2 class="menu-section-title" style="color: #24aee8;font-size: 190%"><b>PLATOS VEGETARIANOS Y VEGANOS</b></h2>
+          <div class="menu-item">
+            <div class="menu-item-name" style="font-size: 80%; color: #24aee8"><b>CEBICHE VEGANO INCA</b></div>
+            <div class="menu-item-price" style="font-size: 100%">S/25</div>
+            <div class="menu-item-description">Llullucha, champiñones salteados en aceite de oliva, tarwi, sacha inchi y choclo, marinados en zumo de de limón, ají amarillo, ají ahumado, acompañado de cebolla roja, camote caramelizado, yuca, lechuga, cancha, chifle de plátano + Yuyo frito</div>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-name" style="font-size: 80%; color: #24aee8"><b>CAUSA CON CEBICHE VEGANO INCA</b></div>
+            <div class="menu-item-price" style="font-size: 100%">S/30</div>
+            <div class="menu-item-description">Papa amarilla, ají amarillo, zumo de limón, rellena con palta y pimiento ahumado, acompañada con cebiche vegano inca, chifle de plátano + Yuyo frito</div>
+          </div>
+          <h2 class="menu-section-title" style="color: #24aee8;font-size: 190%"><b>SOPAS</b></h2>
+          <div class="menu-item">
+            <div class="menu-item-name" style="font-size: 80%; color: #24aee8"><b>CHILCANO</b></div>
+            <div class="menu-item-price" style="font-size: 100%">S/10</div>
+            <div class="menu-item-description">Sopa de pescado con choros y cangrejo para fortificar el sistema inmunológico, acompañado de arroz yuca y leche de tigre</div>
+          </div>
+          <h2 class="menu-section-title" style="color: #24aee8;font-size: 190%"><b>ALTAR DE CEBICHES</b></h2>
+          <div class="menu-item">
+            <div class="menu-item-name" style="font-size: 80%; color: #24aee8"><b>CLÁSICO</b></div>
+            <div class="menu-item-price" style="font-size: 100%">S/25</div>
+            <div class="menu-item-description">Trozos frescos de perico, trucha o corvina, marinados en zumo de limón, ají limo, rocoto, culantro, acompañado de cebolla roja, camote caramelizado, yuca, choclo, lechuga, cancha, chifle de plátano + Chicharrón de pota + Chilcano</div>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-name" style="font-size: 80%; color: #24aee8"><b>ALTAR CEBICHERO</b></div>
+            <div class="menu-item-price" style="font-size: 100%">S/30</div>
+            <div class="menu-item-description">Trozos frescos de perico, trucha o corvina, marinados en zumo de limón, ají limo, rocoto, ají ahumado picante, ají amarillo, culantro, acompañado de cebolla roja, camote caramelizado, yuca, choclo, lechuga, cancha, chifle de plátano, yuyo frito + Chicharrón de pota + Chilcano</div>
+          </div>            
+          <div class="menu-item">
+            <div class="menu-item-name" style="font-size: 80%; color: #24aee8"><b>CARRETILLERO</b></div>
+            <div class="menu-item-price" style="font-size: 100%">S/25</div>
+            <div class="menu-item-description">Trozos frescos de perico, trucha o corvina, marinados en zumo de limón, ají limo, rocoto, ají ahumado picante, ají amarillo, culantro, acompañado de cebolla roja, camote caramelizado, yuca, choclo, lechuga, cancha, chifle de plátano, yuyo frito y abundante leche de tigre + Chicharrón de pota + Chilcano</div>
+          </div>            
+          <div class="menu-item">
+            <div class="menu-item-name" style="font-size: 80%; color: #24aee8"><b>CEBICHE CALIENTE</b></div>
+            <div class="menu-item-price" style="font-size: 100%">S/30</div>
+            <div class="menu-item-description">Trozos frescos de perico, trucha o corvina, marinados en zumo de limón, ají limo, rocoto, culantro, salteado con una salsa cebichera, acompañado de cebolla roja, camote caramelizado, yuca, choclo, lechuga, cancha, chifle de plátano + Chicharrón de pota + Chilcano</div>
+          </div>            
+          <div class="menu-item">
+            <div class="menu-item-name" style="font-size: 80%; color: #24aee8"><b>TIRADITO</b></div>
+            <div class="menu-item-price" style="font-size: 100%">S/25</div>
+            <div class="menu-item-description">Trozos frescos de perico, trucha o corvina, marinados en zumo de limón, ají limo, rocoto, bañado con ají amarillo, acompañado de choclo y camote caramelizado + Chilcano</div>
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-6">
+        <div class="menu-section">
+          <h2 class="menu-section-title" style="color: #24aee8;font-size: 190%"><b>PIQUEOS</b></h2>
+          <div class="menu-item">
+            <div class="menu-item-name" style="font-size: 80%; color: #24aee8"><b>SIMPLEMENTE TUYO</b></div>
+            <div class="menu-item-price" style="font-size: 100%">S/12</div>
+            <div class="menu-item-description">12 yucas fritas acompañadas con salsa de guacamole, tártara, ají ahumado picante, huancaína</div>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-name" style="font-size: 80%; color: #24aee8"><b>CHORITO A LA CHALACA</b></div>
+            <div class="menu-item-price" style="font-size: 100%">S/15</div>
+            <div class="menu-item-description">Choros, cebolla, tomate, choclo, culantro, ají limo, zumo de limón</div>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-name" style="font-size: 80%; color: #24aee8"><b>TRILOGÍA DE CAUSAS</b></div>
+            <div class="menu-item-price" style="font-size: 100%">S/30</div>
+            <div class="menu-item-description">Causa rellena con langostino y cebiche altar + Causa rellena con pota y cebiche clásico + Causa rellena con pulpa de cangrejo + Tiradito</div>
+          </div>
+          <h2 class="menu-section-title" style="color: #24aee8;font-size: 190%"><b>ALTAR DE LECHES</b></h2>
+          <div class="menu-item">
+            <div class="menu-item-name" style="font-size: 80%; color: #24aee8"><b>TIGRE CLÁSICA</b></div>
+            <div class="menu-item-price" style="font-size: 100%">S/13</div>
+            <div class="menu-item-description">Cebiche clásico con una poderosa leche de pescado concentrado, acompañado de cebolla, choclo, cancha, chifle de plátano y chicharrón de pota + Chilcano</div>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-name" style="font-size: 80%; color: #24aee8"><b>ALTAR CEBICHERO</b></div>
+            <div class="menu-item-price" style="font-size: 100%">S/15</div>
+            <div class="menu-item-description">Cebiche de la casa, llullucha y una poderosa leche de pescado concentrado, salsa coral especial, ají amarillo, ají ahumado, acompañado de cebolla, choclo , cancha, chifle de plátano y chicharrón de pota + Chilcano</div>
+          </div>            
+          <div class="menu-item">
+            <div class="menu-item-name" style="font-size: 80%; color: #24aee8"><b>MIXTA CON FRUTOS DE MAR</b></div>
+            <div class="menu-item-price" style="font-size: 100%">S/17</div>
+            <div class="menu-item-description">Cebiche clásico, langostino, pulpo, calamar, conchas de abanico, pota y una poderosa leche de pescado concentrado, acompañado de cebolla, choclo, cancha, chifle de plátano y chicharrón de pota + Chilcano</div>
+          </div>            
+          <div class="menu-item">
+            <div class="menu-item-name" style="font-size: 80%; color: #24aee8"><b>GATA SALVAJE</b></div>
+            <div class="menu-item-price" style="font-size: 100%">S/15</div>
+            <div class="menu-item-description">Cebiche clásico, langostino, pulpo y una poderosa leche de pescado concentrado bien picante, acompañado de cebolla, choclo, cancha, chifle de plátano y chicharrón de pota + Chilcano</div>
+          </div>            
+          <div class="menu-item">
+            <div class="menu-item-name" style="font-size: 80%; color: #24aee8"><b>CHUPE DE PESCADO</b></div>
+            <div class="menu-item-price" style="font-size: 100%">S/23</div>
+            <div class="menu-item-description">Chupe de perico, trucha o corvina, salsa coral especial de langostinos, vino blanco seco, pasta de ají amarillo, caldo de pescado, ají limo, acompañado de arroz y yuca</div>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-name" style="font-size: 80%; color: #24aee8"><b>PARIHUELA</b></div>
+            <div class="menu-item-price" style="font-size: 100%">S/25</div>
+            <div class="menu-item-description">Levanta muertos y afrodisiaca de perico, trucha o corvina, langostino, pulpo, calamar, pota, cangrejo vino blanco seco, salsa coral especial de langostinos, queso, cebolla, tomate, ají panca, ají amarillo, ají limo picado, caldo de pescado, acompañado de arroz y yuca</div>
+          </div>            
+        </div>
+      </div>
+    </div>
+    <div>
+    </div>
+    <div class="row">        
+      <div class="col-xs-12 col-sm-6">
+        <h2 class="menu-section-title" style="color: #24aee8;font-size: 190%"><b>COMBOS MARINOS INDIVIDUALES</b></h2>
+        <div class="menu-section">      
+          <div class="menu-item">
+            <div class="menu-item-name" style="font-size: 80%; color: #24aee8"><b>COMBO A</b></div>
+            <div class="menu-item-price" style="font-size: 100%">S/27</div>
+            <div class="menu-item-description">Chicharrón de pescado + Cebiche clásico</div>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-name" style="font-size: 80%; color: #24aee8"><b>COMBO B</b></div>
+            <div class="menu-item-price" style="font-size: 100%">S/27</div>
+            <div class="menu-item-description">Cebiche clásico + Arroz con mariscos</div>              
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-name" style="font-size: 80%; color: #24aee8"><b>COMBO C</b></div>
+            <div class="menu-item-price" style="font-size: 100%">S/30</div>
+            <div class="menu-item-description">Cebiche clásico + Chicharrón de pescado + Arroz con Mariscos</div>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-name" style="font-size: 80%; color: #24aee8"><b>COMBO D</b></div>
+            <div class="menu-item-price" style="font-size: 100%">S/26</div>
+            <div class="menu-item-description">Cebiche clásico + Arroz chaufa con mariscos</div>
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-6">
+        <h2 class="menu-section-title" style="color: #24aee8;font-size: 190%"><b>FUENTES FAMILIARES</b></h2>
+        <div class="menu-section">
+          <div class="menu-item">
+            <div class="menu-item-name" style="font-size: 80%; color: #24aee8"><b>FAMILIAR 3 PERSONAS</b></div>
+            <div class="menu-item-price" style="font-size: 100%">S/99</div>
+            <div class="menu-item-description">Chicharrón de pescado + Cebiche clásico + Arroz con mariscos + Chilcano</div>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-name" style="font-size: 80%; color: #24aee8"><b>FAMILIAR 5 PERSONAS</b></div>
+            <div class="menu-item-price" style="font-size: 100%">S/139</div>
+            <div class="menu-item-description">Cebiche altar + Chicharrón de pota + Chaufa de mariscos + Chilcano</div>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-name" style="font-size: 80%; color: #24aee8"><b>FAMILIAR 7 PERSONAS</b></div>
+            <div class="menu-item-price" style="font-size: 100%">S/179</div>
+            <div class="menu-item-description">Cebiche clásico + Chicharrón de pescado + Arroz con mariscos + Chilcano</div>
+          </div>                    
+        </div>
+      </div>
+    </div>
+    <div class="row">        
+      <div class="col-xs-12 col-sm-6">          
+        <h2 class="menu-section-title" style="color: #24aee8;font-size: 190%"><b>MENÚ MARINO</b></h2>
+        <div class="menu-section">
+          <div class="menu-item">
+            <div class="menu-item-name" style="font-size: 80%; color: #24aee8"><b>OPCIÓN A</b></div>
+            <div class="menu-item-price" style="font-size: 100%">S/20</div>
+            <div class="menu-item-description">Chilcano + Leche de tigre + Trucha frita + Chicha morada o Limonada</div>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-name" style="font-size: 80%; color: #24aee8"><b>OPCIÓN B</b></div>
+            <div class="menu-item-price" style="font-size: 100%">S/27</div>
+            <div class="menu-item-description">Chilcano + Cebiche clásico + Arroz con mariscos o Chaufa con mariscos + Chicha morada o Limonada</div>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-name" style="font-size: 80%; color: #24aee8"><b>OPCIÓN C</b></div>
+            <div class="menu-item-price" style="font-size: 100%">S/27</div>
+            <div class="menu-item-description">Chilcano + Cebiche clásico + Leche de tigre + Chicharrón de pota + Chicha morada o Limonada</div>
+          </div>            
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-6">
+        <h2 class="menu-section-title" style="color: #24aee8;font-size: 190%"><b>PLATOS TRADICIONALES DEL PERÚ</b></h2>
+        <div class="menu-section">
+          <div class="menu-item">
+            <div class="menu-item-name" style="font-size: 80%; color: #24aee8"><b>LOMO SALTADO</b></div>
+            <div class="menu-item-price" style="font-size: 100%">S/25</div>
+            <div class="menu-item-description">Lomo de res, cebolla, tomate, ají amarillo, papa amarilla frita y arroz</div>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-name" style="font-size: 80%; color: #24aee8"><b>CHICHARRÓN DE POLLO</b></div>
+            <div class="menu-item-price" style="font-size: 100%">S/20</div>
+            <div class="menu-item-description">Dados de pollo crocante, acompañado de papa frita y arroz</div>              
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-name" style="font-size: 80%; color: #24aee8"><b>AJÍ DE GALLINA</b></div>
+            <div class="menu-item-price" style="font-size: 100%">S/20</div>
+            <div class="menu-item-description">Gallina, papa amarilla, lechuga, huevo, aceituna y arroz</div>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-name" style="font-size: 80%; color: #24aee8"><b>TALLARÍN A LA HUANCAÍNA</b></div>
+            <div class="menu-item-price" style="font-size: 100%">S/25</div>
+            <div class="menu-item-description">Tallarín con salsa a la huancaína, acompañado de lomo saltado</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
   </div>
 
   <div id="Paris" class="w3-container w3-border city" style="display:none">
-    <h2>Paris</h2>
-    <p>Paris is the capital of France.</p> 
+    <div class="container">
+    <h2  class="menu-section-title" style="color: #24aee8;font-size: 250%;text-align: center"><b>SUSHI</b></h2>
+    <div class="row">
+      <div class="col-xs-12 col-sm-6">
+        <h2 class="menu-section-title" style="color: #24aee8;font-size: 190%"><b>MAKYS & URUMAKI</b></h2>
+        <div class="menu-section">
+          <div class="menu-item">
+            <div class="menu-item-name" style="font-size: 80%; color: #24aee8"><b>AVOCADO AMOR</b></div>
+            <div class="menu-item-price" style="font-size: 100%">S/36</div>
+            <div class="menu-item-description">Salmón fresco y pulpo, queso filadelfia, palta, cubierto de ajonjolí blanco y negro tostado (15 und)</div>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-name" style="font-size: 80%; color: #24aee8"><b>CALIFORNIA</b></div>
+            <div class="menu-item-price" style="font-size: 100%">S/38</div>
+            <div class="menu-item-description">Langostino, queso filadelfia, palta, cubierto de ajonjolí blanco y negro tostado (15 und)</div>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-name" style="font-size: 80%; color: #24aee8"><b>ACEBICHADO ALTAR</b></div>
+            <div class="menu-item-price" style="font-size: 100%">S/40</div>
+            <div class="menu-item-description">Langostinos al panko con palta y cebiche de la casa o clásico</div>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-name" style="font-size: 80%; color: #24aee8"><b>CRISPY ROLL</b></div>
+            <div class="menu-item-price" style="font-size: 100%">S/43</div>
+            <div class="menu-item-description">Langostino altar, queso filadelfia, palta, cubierto con panko y frito (15 und)</div>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-name" style="font-size: 80%; color: #24aee8"><b>VERY HOT ROLL PERÚ</b></div>
+            <div class="menu-item-price" style="font-size: 100%">S/40</div>
+            <div class="menu-item-description">Langostino al panko, queso filadelfia, palta, cubierto con trucha salmonada, bañado con salsa picante y flameado (15 und)</div>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-name" style="font-size: 80%; color: #24aee8"><b>ALTAR CEBICHERO</b></div>
+            <div class="menu-item-price" style="font-size: 100%">S/46</div>
+            <div class="menu-item-description">Langostino hot, queso filadelfia, palta, cubierto con trucha salmonada, pulpo parrillero y bañado con salsa de ají limo dulce (15 und)</div>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-name" style="font-size: 80%; color: #24aee8"><b>PULPÍN</b></div>
+            <div class="menu-item-price" style="font-size: 100%">S/40</div>
+            <div class="menu-item-description">Pulpa de cangrejo, queso filadelfia, pepino japonés, cubierto con láminas de concha de abanico flameadas con pisco y pulpo, bañado de una salsa acebichada (15 und)</div>
+          </div>
+          <h2 class="menu-section-title" style="color: #24aee8;font-size: 190%"><b>SASHIMI</b></h2>
+          <div class="menu-item">
+            <div class="menu-item-name" style="font-size: 80%; color: #24aee8"><b>ALTAR</b></div>
+            <div class="menu-item-price" style="font-size: 100%">S/90</div>
+            <div class="menu-item-description">Atún, salmón, trucha salmonada, langostino, conchas de abanico (30 und)</div>
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-6">
+        <h2 class="menu-section-title" style="color: #24aee8;font-size: 190%"><b>NIGIRI</b></h2>
+        <div class="menu-section">
+          <div class="menu-item">
+            <div class="menu-item-name" style="font-size: 80%; color: #24aee8"><b>ALTAR</b></div>
+            <div class="menu-item-price" style="font-size: 100%">S/40</div>
+            <div class="menu-item-description">Langostinos flambeados y bañados con salsa coral (15 und)</div>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-name" style="font-size: 80%; color: #24aee8"><b>OCEANO</b></div>
+            <div class="menu-item-price" style="font-size: 100%">S/36</div>
+            <div class="menu-item-description">Salmón bañado con salsa de ají limo y flambeado (15 und)</div>              
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-name" style="font-size: 80%; color: #24aee8"><b>ANDES CUSQUEÑOS</b></div>
+            <div class="menu-item-price" style="font-size: 100%">S/43</div>
+            <div class="menu-item-description">Trucha salmonada bañado con salsa de sauco, llullucha y flambeado (15 und)</div>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-name" style="font-size: 80%; color: #24aee8"><b>ME PROVOCA</b></div>
+            <div class="menu-item-price" style="font-size: 100%">S/35</div>
+            <div class="menu-item-description">Conchas acebichadas bañadas con salsa de ají ahumado (15 und)</div>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-name" style="font-size: 80%; color: #24aee8"><b>SOLO POR TI</b></div>
+            <div class="menu-item-price" style="font-size: 100%">S/38</div>
+            <div class="menu-item-description">Pulpo fresco y pulpo crocante (15 und)</div>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-name" style="font-size: 80%; color: #24aee8"><b>AMO EL QUESO</b></div>
+            <div class="menu-item-price" style="font-size: 100%">S/34</div>
+            <div class="menu-item-description">Queso crema, pepino japonés, queso andino y flambeado (15 und)</div>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-name" style="font-size: 80%; color: #24aee8"><b>OCEANO DE AMOR</b></div>
+            <div class="menu-item-price" style="font-size: 100%">S/37</div>
+            <div class="menu-item-description">Corvina bañada con salsa acebichada (15 und)</div>
+          </div>
+          <h2 class="menu-section-title" style="color: #24aee8;font-size: 190%"><b>TEMAKI</b></h2>
+          <div class="menu-item">
+            <div class="menu-item-name" style="font-size: 80%; color: #24aee8"><b>ALTAR</b></div>
+            <div class="menu-item-price" style="font-size: 100%">S/40</div>
+            <div class="menu-item-description">Pulpa de cangrejo, zanahoria, apio, pulpo, trucha fresca y ajonjolí blanco y negro tostado (03 und)</div>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-name" style="font-size: 80%; color: #24aee8"><b>ACEBICHADO</b></div>
+            <div class="menu-item-price" style="font-size: 100%">S/38</div>
+            <div class="menu-item-description">Pepino chino, zanahoria, palta, tiras de pota crocante y cebiche (03 und)</div>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-name" style="font-size: 80%; color: #24aee8"><b>ANDE DEL INCA</b></div>
+            <div class="menu-item-price" style="font-size: 100%">S/43</div>
+            <div class="menu-item-description">Pimiento ahumado, zanahoria, palta, langostino, llullucha y trucha fresca (03 und)</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
   </div>
 
   <div id="Tokyo" class="w3-container w3-border city" style="display:none">
-    <h2>Tokyo</h2>
-    <p>Tokyo is the capital of Japan.</p>
+    <div class="container">
+      <h2  class="menu-section-title" style="color: #24aee8;font-size: 250%;text-align: center"><b>BAR</b></h2>
+      <div class="row">
+        <div class="col-xs-12 col-sm-6">
+          <h2 class="menu-section-title" style="color: #24aee8;font-size: 190%"><b>CÓCTELES</b></h2>
+          <div class="menu-section">
+            <div class="menu-item">
+              <div class="menu-item-name" style="font-size: 80%; color: #24aee8"><b>PISCO SOUR</b></div>
+              <div class="menu-item-price" style="font-size: 100%">S/15</div>
+              <div class="menu-item-description">(Preguntar por las opciones)</div>
+            </div>
+            <div class="menu-item">
+              <div class="menu-item-name" style="font-size: 80%; color: #24aee8"><b>CHILCANO</b></div>
+              <div class="menu-item-price" style="font-size: 100%">S/12</div>
+              <div class="menu-item-description">(Preguntar por las opciones)</div>
+            </div>
+            <div class="menu-item">
+              <div class="menu-item-name" style="font-size: 80%; color: #24aee8"><b>MOJITO</b></div>
+              <div class="menu-item-price" style="font-size: 100%">S/15</div>
+              <div class="menu-item-description">(Preguntar por las opciones)</div>
+            </div>
+            <div class="menu-item">
+              <div class="menu-item-name" style="font-size: 80%; color: #24aee8"><b>PISCO PUNCH</b></div>
+              <div class="menu-item-price" style="font-size: 100%">S/15</div>
+            </div>
+            <div class="menu-item">
+              <div class="menu-item-name" style="font-size: 80%; color: #24aee8"><b>DAIQUIRI</b></div>
+              <div class="menu-item-price" style="font-size: 100%">S/15</div>
+            </div>
+            <div class="menu-item">
+              <div class="menu-item-name" style="font-size: 80%; color: #24aee8"><b>SEX ON THE BEACH</b></div>
+              <div class="menu-item-price" style="font-size: 100%">S/15</div>
+            </div>
+            <div class="menu-item">
+              <div class="menu-item-name" style="font-size: 80%; color: #24aee8"><b>MARGARITA</b></div>
+              <div class="menu-item-price" style="font-size: 100%">S/20</div>
+            </div>
+            <div class="menu-item">
+              <div class="menu-item-name" style="font-size: 80%; color: #24aee8"><b>CUBA LIBRE</b></div>
+              <div class="menu-item-price" style="font-size: 100%">S/12</div>
+            </div>
+            <div class="menu-item">
+              <div class="menu-item-name" style="font-size: 80%; color: #24aee8"><b>CAIPIRINHA</b></div>
+              <div class="menu-item-price" style="font-size: 100%">S/15</div>
+            </div>
+            <div class="menu-item">
+              <div class="menu-item-name" style="font-size: 80%; color: #24aee8"><b>APPLE MARTINI</b></div>
+              <div class="menu-item-price" style="font-size: 100%">S/18</div>
+            </div>
+            <div class="menu-item">
+              <div class="menu-item-name" style="font-size: 80%; color: #24aee8"><b>SCREWDRIVER</b></div>
+              <div class="menu-item-price" style="font-size: 100%">S/12</div>
+            </div>
+            <div class="menu-item">
+              <div class="menu-item-name" style="font-size: 80%; color: #24aee8"><b>MAI TAI</b></div>
+              <div class="menu-item-price" style="font-size: 100%">S/18</div>
+            </div>
+            <div class="menu-item">
+              <div class="menu-item-name" style="font-size: 80%; color: #24aee8"><b>APEROL SPRITZ</b></div>
+              <div class="menu-item-price" style="font-size: 100%">S/25</div>
+            </div>
+            <div class="menu-item">
+              <div class="menu-item-name" style="font-size: 80%; color: #24aee8"><b>GIN TONIC</b></div>
+              <div class="menu-item-price" style="font-size: 100%">S/15</div>
+            </div>
+            <div class="menu-item">
+              <div class="menu-item-name" style="font-size: 80%; color: #24aee8"><b>PIÑA COLADA</b></div>
+              <div class="menu-item-price" style="font-size: 100%">S/15</div>
+            </div>
+            <div class="menu-item">
+              <div class="menu-item-name" style="font-size: 80%; color: #24aee8"><b>NEGRONI</b></div>
+              <div class="menu-item-price" style="font-size: 100%">S/20</div>
+            </div>
+            <div class="menu-item">
+              <div class="menu-item-name" style="font-size: 80%; color: #24aee8"><b>ORGASMO</b></div>
+              <div class="menu-item-price" style="font-size: 100%">S/25</div>
+            </div>
+            <div class="menu-item">
+              <div class="menu-item-name" style="font-size: 80%; color: #24aee8"><b>SANGRÍA</b></div>
+              <div class="menu-item-price" style="font-size: 100%">S/16</div>
+            </div>
+            <div class="menu-item">
+              <div class="menu-item-name" style="font-size: 80%; color: #24aee8"><b>PERÚ LIBRE</b></div>
+              <div class="menu-item-price" style="font-size: 100%">S/12</div>
+            </div>
+            <div class="menu-item">
+              <div class="menu-item-name" style="font-size: 80%; color: #24aee8"><b>COSMOPOLITAN</b></div>
+              <div class="menu-item-price" style="font-size: 100%">S/12</div>
+            </div>
+            <div class="menu-item">
+              <div class="menu-item-name" style="font-size: 80%; color: #24aee8"><b>CAPITÁN</b></div>
+              <div class="menu-item-price" style="font-size: 100%">S/12</div>
+            </div>
+            <h2 class="menu-section-title" style="color: #24aee8;font-size: 190%"><b>CERVEZAS</b></h2>
+            <div class="menu-item">
+              <div class="menu-item-name" style="font-size: 80%; color: #24aee8"><b>CUSQUEÑA 330mL</b></div>
+              <div class="menu-item-price" style="font-size: 100%">S/8</div>
+              <div class="menu-item-description">(Dorada, roja, trigo, malta, doble malta)</div>
+            </div>
+            <div class="menu-item">
+              <div class="menu-item-name" style="font-size: 80%; color: #24aee8"><b>CUSQUEÑA 620mL</b></div>
+              <div class="menu-item-price" style="font-size: 100%">S/15</div>
+            </div>
+            <div class="menu-item">
+              <div class="menu-item-name" style="font-size: 80%; color: #24aee8"><b>RAYMI 330mL</b></div>
+              <div class="menu-item-price" style="font-size: 100%">S/8</div>
+            </div>
+            <div class="menu-item">
+              <div class="menu-item-name" style="font-size: 80%; color: #24aee8"><b>PILSEN 305mL</b></div>
+              <div class="menu-item-price" style="font-size: 100%">S/8</div>
+            </div>
+            <div class="menu-item">
+              <div class="menu-item-name" style="font-size: 80%; color: #24aee8"><b>CORONA 355mL</b></div>
+              <div class="menu-item-price" style="font-size: 100%">S/10</div>
+            </div>
+            <div class="menu-item">
+              <div class="menu-item-name" style="font-size: 80%; color: #24aee8"><b>STENA ARTOIS 330mL</b></div>
+              <div class="menu-item-price" style="font-size: 100%">S/10</div>
+            </div>
+            <h2 class="menu-section-title" style="color: #24aee8;font-size: 190%"><b>ARTESANAL</b></h2>
+            <div class="menu-item">
+              <div class="menu-item-name" style="font-size: 80%; color: #24aee8"><b>MUNDO QUECHUA</b></div>
+              <div class="menu-item-price" style="font-size: 100%">S/14</div>
+              <div class="menu-item-description">Pale ale, IPA, Porter, Red ale</div>
+            </div>
+            <div class="menu-item">
+              <div class="menu-item-name" style="font-size: 80%; color: #24aee8"><b>EL ALTAR</b></div>
+              <div class="menu-item-price" style="font-size: 100%">S/24</div>
+              <div class="menu-item-description">Muña, maracuyá, flor de pensamiento</div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-6">
+          <h2 class="menu-section-title" style="color: #24aee8;font-size: 190%"><b>PITEADOS PARA EL ALMA</b></h2>
+          <div class="menu-section">
+            <div class="menu-item">
+              <div class="menu-item-name" style="font-size: 80%; color: #24aee8"><b>EL CLÁSICO</b></div>
+              <div class="menu-item-price" style="font-size: 100%">S/9</div>
+              <div class="menu-item-description">Té negro, canela, clavo, naranja</div>
+            </div>
+            <div class="menu-item">
+              <div class="menu-item-name" style="font-size: 80%; color: #24aee8"><b>EL ALTAR</b></div>
+              <div class="menu-item-price" style="font-size: 100%">S/10</div>
+              <div class="menu-item-description">Muña, maracuyá, flor de pensamiento</div>
+            </div>
+            <div class="menu-item">
+              <div class="menu-item-name" style="font-size: 80%; color: #24aee8"><b>TÉ MACHO</b></div>
+              <div class="menu-item-price" style="font-size: 100%">S/10</div>
+              <div class="menu-item-description">Durazno, romero, manzanilla</div>
+            </div>
+            <div class="menu-item">
+              <div class="menu-item-name" style="font-size: 80%; color: #24aee8"><b>TÉ INSPIRA</b></div>
+              <div class="menu-item-price" style="font-size: 100%">S/10</div>
+              <div class="menu-item-description">Mango, airampo, hierba luisa</div>
+            </div>
+            <h2 class="menu-section-title" style="color: #24aee8;font-size: 190%"><b>JARRA</b></h2>
+            <div class="menu-item">
+              <div class="menu-item-name" style="font-size: 80%; color: #24aee8"><b>EL CLÁSICO</b></div>
+              <div class="menu-item-price" style="font-size: 100%">S/15</div>
+              <div class="menu-item-description">Té negro, canela, clavo, naranja</div>
+            </div>
+            <div class="menu-item">
+              <div class="menu-item-name" style="font-size: 80%; color: #24aee8"><b>EDELMANN</b></div>
+              <div class="menu-item-price" style="font-size: 100%">S/14</div>
+              <div class="menu-item-description">Kölsch, IPA, Altbier, Pale ale</div>
+            </div>
+            <h2 class="menu-section-title" style="color: #24aee8;font-size: 190%"><b>ESPUMANTE</b></h2>
+            <div class="menu-item">
+              <div class="menu-item-name" style="font-size: 80%; color: #24aee8"><b>CHANDON EXTRA BRUT 750mL </b><img src="img/Banderas/ar.png" style="width: 20px;height: 15px"></div>
+              <div class="menu-item-price" style="font-size: 100%">S/99</div>
+            </div>
+            <div class="menu-item">
+              <div class="menu-item-name" style="font-size: 80%; color: #24aee8"><b>MARTINI ASTI 200mL </b><img src="img/Banderas/it.png" style="width: 20px;height: 15px"></div>
+              <div class="menu-item-price" style="font-size: 100%">S/35</div>
+            </div>
+            <h2 class="menu-section-title" style="color: #24aee8;font-size: 190%"><b>VINOS - COPA</b></h2>
+            <div class="menu-item">
+              <div class="menu-item-name" style="font-size: 80%; color: #24aee8"><b>INTIPALKA </b><img src="img/Banderas/pe.png" style="width: 20px;height: 15px"></div>
+              <div class="menu-item-price" style="font-size: 100%">S/16</div>
+              <div class="menu-item-description">Chardonnay</div>
+            </div>
+            <div class="menu-item">
+              <div class="menu-item-name" style="font-size: 80%; color: #24aee8"><b>LOMA NEGRA </b><img src="img/Banderas/cl.png" style="width: 20px;height: 15px"></div>
+              <div class="menu-item-price" style="font-size: 100%">S/16</div>
+              <div class="menu-item-description">Sauvignon blanc</div>
+            </div>
+            <div class="menu-item">
+              <div class="menu-item-name" style="font-size: 80%; color: #24aee8"><b>TERRANOBLE ESTATE </b><img src="img/Banderas/cl.png" style="width: 20px;height: 15px"></div>
+              <div class="menu-item-price" style="font-size: 100%">S/18</div>
+              <div class="menu-item-description">Merlot</div>
+            </div>
+            <div class="menu-item">
+              <div class="menu-item-name" style="font-size: 80%; color: #24aee8"><b>CASILLERO DEL DIABLO </b><img src="img/Banderas/cl.png" style="width: 20px;height: 15px"></div>
+              <div class="menu-item-price" style="font-size: 100%">S/14</div>
+              <div class="menu-item-description">Cabernet Sauvignon</div>
+            </div>
+            <h2 class="menu-section-title" style="color: #24aee8;font-size: 190%"><b>VINOS - BOTELLA</b></h2>
+            <div class="menu-item">
+              <div class="menu-item-name" style="font-size: 80%; color: #24aee8"><b>INTIPALKA </b><img src="img/Banderas/pe.png" style="width: 20px;height: 15px"></div>
+              <div class="menu-item-price" style="font-size: 100%">S/75</div>
+              <div class="menu-item-description">Chardonnay</div>
+            </div>
+            <div class="menu-item">
+              <div class="menu-item-name" style="font-size: 80%; color: #24aee8"><b>LOMA NEGRA </b><img src="img/Banderas/cl.png" style="width: 20px;height: 15px"></div>
+              <div class="menu-item-price" style="font-size: 100%">S/70</div>
+              <div class="menu-item-description">Sauvignon blanc</div>
+            </div>
+            <div class="menu-item">
+              <div class="menu-item-name" style="font-size: 80%; color: #24aee8"><b>FAMILIA GASCÓN </b><img src="img/Banderas/ar.png" style="width: 20px;height: 15px"></div>
+              <div class="menu-item-price" style="font-size: 100%">S/80</div>
+              <div class="menu-item-description">Rose</div>
+            </div>
+            <div class="menu-item">
+              <div class="menu-item-name" style="font-size: 80%; color: #24aee8"><b>TERRANOBLE ESTATE </b><img src="img/Banderas/cl.png" style="width: 20px;height: 15px"></div>
+              <div class="menu-item-price" style="font-size: 100%">S/80</div>
+              <div class="menu-item-description">Merlot</div>
+            </div>
+            <div class="menu-item">
+              <div class="menu-item-name" style="font-size: 80%; color: #24aee8"><b>CASILLERO DEL DIABLO </b><img src="img/Banderas/cl.png" style="width: 20px;height: 15px"></div>
+              <div class="menu-item-price" style="font-size: 100%">S/65</div>
+              <div class="menu-item-description">Cabernet Sauvignon</div>
+            </div>
+            <div class="menu-item">
+              <div class="menu-item-name" style="font-size: 80%; color: #24aee8"><b>FINCA LA LINDA </b><img src="img/Banderas/ar.png" style="width: 20px;height: 15px"></div>
+              <div class="menu-item-price" style="font-size: 100%">S/85</div>
+              <div class="menu-item-description">Malbec</div>
+            </div>
+            <div class="menu-item">
+              <div class="menu-item-name" style="font-size: 80%; color: #24aee8"><b>ALTAIR </b><img src="img/Banderas/es.png" style="width: 20px;height: 15px"></div>
+              <div class="menu-item-price" style="font-size: 100%">S/80</div>
+              <div class="menu-item-description">Tempranillo</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12 col-sm-6">
+          <h2 class="menu-section-title" style="color: #24aee8;font-size: 190%"><b>BEBIDAS REFRESCANTES</b></h2>
+          <div class="menu-section">
+            <div class="menu-item">
+              <div class="menu-item-name" style="font-size: 80%; color: #24aee8"><b>LIMONADA</b></div>
+              <div class="menu-item-price" style="font-size: 100%">S/13</div>
+              <div class="menu-item-description">(Preguntar por las opciones)</div>
+            </div>
+            <div class="menu-item">
+              <div class="menu-item-name" style="font-size: 80%; color: #24aee8"><b>CHICHA MORADA</b></div>
+              <div class="menu-item-price" style="font-size: 100%">S/13</div>
+            </div>
+            <div class="menu-item">
+              <div class="menu-item-name" style="font-size: 80%; color: #24aee8"><b>REFRESCO DE MARACUYÁ</b></div>
+              <div class="menu-item-price" style="font-size: 100%">S/8</div>
+            </div>
+            <div class="menu-item">
+              <div class="menu-item-name" style="font-size: 80%; color: #24aee8"><b>JUGOS DE FRUTAS</b></div>
+              <div class="menu-item-price" style="font-size: 100%">S/8</div>
+              <div class="menu-item-description">(Preguntar por las opciones)</div>
+            </div>
+            <div class="menu-item">
+              <div class="menu-item-name" style="font-size: 80%; color: #24aee8"><b>AGUA MINERAL</b></div>
+              <div class="menu-item-price" style="font-size: 100%">S/5</div>
+            </div>
+            <div class="menu-item">
+              <div class="menu-item-name" style="font-size: 80%; color: #24aee8"><b>GASEOSA 500mL</b></div>
+              <div class="menu-item-price" style="font-size: 100%">S/5</div>
+            </div>
+            <div class="menu-item">
+              <div class="menu-item-name" style="font-size: 80%; color: #24aee8"><b>GASEOSA 2.25L</b></div>
+              <div class="menu-item-price" style="font-size: 100%">S/15</div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-6">
+          <h2 class="menu-section-title" style="color: #24aee8;font-size: 190%"><b>CALIENTES</b></h2>
+          <div class="menu-section">
+            <div class="menu-item">
+              <div class="menu-item-name" style="font-size: 80%; color: #24aee8"><b>EXPRESO</b></div>
+              <div class="menu-item-price" style="font-size: 100%">S/5</div>
+            </div>
+            <div class="menu-item">
+              <div class="menu-item-name" style="font-size: 80%; color: #24aee8"><b>AMERICANO</b></div>
+              <div class="menu-item-price" style="font-size: 100%">S/5</div>
+            </div>
+            <div class="menu-item">
+              <div class="menu-item-name" style="font-size: 80%; color: #24aee8"><b>CAPUCCINO</b></div>
+              <div class="menu-item-price" style="font-size: 100%">S/8</div>
+            </div>
+            <div class="menu-item">
+              <div class="menu-item-name" style="font-size: 80%; color: #24aee8"><b>MOCCHA</b></div>
+              <div class="menu-item-price" style="font-size: 100%">S/10</div>
+            </div>
+            <div class="menu-item">
+              <div class="menu-item-name" style="font-size: 80%; color: #24aee8"><b>MOCCHA MINT</b></div>
+              <div class="menu-item-price" style="font-size: 100%">S/12</div>
+            </div>
+            <div class="menu-item">
+              <div class="menu-item-name" style="font-size: 80%; color: #24aee8"><b>BAILEYS COFFEE</b></div>
+              <div class="menu-item-price" style="font-size: 100%">S/18</div>
+            </div>
+            <div class="menu-item">
+              <div class="menu-item-name" style="font-size: 80%; color: #24aee8"><b>INFUSIONES</b></div>
+              <div class="menu-item-price" style="font-size: 100%">S/5</div>
+              <div class="menu-item-description">(Muña, hierba luisa, toronjil, manzanilla, té negro, runamanayupa, flor de pensamiento)</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </div>
 <script>
@@ -291,10 +981,10 @@
     }
     tablinks = document.getElementsByClassName("tablink");
     for (i = 0; i < x.length; i++) {
-      tablinks[i].className = tablinks[i].className.replace(" w3-red", "");
+      tablinks[i].className = tablinks[i].className.replace(" w3-blue", "");
     }
     document.getElementById(cityName).style.display = "block";
-    evt.currentTarget.className += " w3-red";
+    evt.currentTarget.className += " w3-blue";
   }
   </script>
 <!-- PRUEBA DE LA CARTA -->
