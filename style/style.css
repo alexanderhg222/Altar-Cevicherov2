@@ -321,6 +321,8 @@ header .intro-text {
 	font-size: 20px;
 	color: #444;
 	margin-bottom: 10px;
+	display: grid;
+	grid-template-columns: 1fr 60px;
 }
 #restaurant-menu .menu-item-description {
 	font-size: 15px;
@@ -696,6 +698,13 @@ color: #999;
 	width: 80%;
 	height: 90vh;
 }
+#Bar_centro{
+	display: grid;
+	grid-template-columns: 0 1fr 1fr 1fr;
+}
+#Bar_centro:hover{
+	color:#085aad;
+}
 @media screen and ( max-width:1000px) {
 	#mo1{
 		height: 0px;
@@ -803,7 +812,7 @@ color: #999;
 }
 	
 
-@media screen and (max-width:398px) {
+@media screen and (max-width:412px) {
 	.navbar-brand2 {
 		padding-top: .5125rem;
 		padding-bottom: .3125rem;
